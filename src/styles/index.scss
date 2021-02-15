@@ -1,13 +1,23 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.app {
+    padding: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+    object-position: center;    
+    font-family: 'Fredoka One', cursive;
+    border: solid 1px rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 350px;
+    background-color: red;
+}
+input {
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+}
